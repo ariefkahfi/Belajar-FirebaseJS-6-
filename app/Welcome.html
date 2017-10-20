@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body ng-app="mainApp">
+    <nav class="clearfix">
+        <div id="nav-content">
+            <ul id="nav-menu">
+                <li class="nav-item"><a href="#!/chat">Chat Page</a></li>
+                <li class="nav-item"><a href="#!/about">About Us</a></li>
+                <li class="nav-item"><a href="#!/sign-up">Sign Up</a></li>
+            </ul>
+        </div>
+        <div id="nav-title" style="float: right;">
+            <h3 style="margin : 0; padding : 0; display: inline-block;">Firebase App</h3>
+            <input type="text" placeholder="Hello Firebase"/>
+        </div>
+    </nav>
+
+    <div id="main-container">
+       <ng-view></ng-view>
+    </div>
+
+</body>
+    <script src="./dist/FirebaseApp.js"></script>
+</html>

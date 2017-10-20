@@ -1,0 +1,54 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*init container-chat*/
+#container-chat{
+    background-color: dodgerblue;
+}
+#chat-output{
+    background-color: crimson;
+    height: 400px;
+    overflow: auto;
+
+}
+#chat-input{
+    padding : 1%;
+    min-width: 800px;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#chat-inner-input {
+    min-width: 800px;
+}
+#chat-input input[type=text]{
+    width: 80%;
+    min-width: 800px;
+}
+/*init container-chat*/
+
+/*init dialog-container*/
+#dialog-container{
+    display: none;
+    position: fixed;
+    padding-left : 100px;
+    width: 100%;
+    height: 100%;
+    left : 0;
+    top : 0;
+    z-index : 1;
+    padding-top : 100px;
+    background-color: rgba(0,0,0,0.3);
+}
+#dialog-content{
+    background-color: crimson;
+    width: 50%;
+    margin : auto;
+}
+/*init dialog-container*/

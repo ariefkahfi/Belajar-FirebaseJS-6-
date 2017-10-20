@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Page</title>
+    <link href="../css/chat.css" rel="stylesheet"/>
+</head>
+<body ng-controller="chatController">
+    <h3>My Chat</h3>
+    <button ng-click="loginButton()" style="margin-bottom : 10px;">Dialog Login</button>
+    <div id="dialog-container">
+
+        <div id="dialog-content">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" placeholder="Username" ng-model="loginUsername"/></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Password" ng-model="loginPassword"/></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Login" ng-click="doLogin()"/></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div id="container-chat">
+        <div id="chat-output">
+           <!--chat disini-->
+        </div>
+    </div>
+
+    <div id="chat-input">
+        <div id="chat-inner-input">
+            <span id="personName"></span><input type="text" placeholder="Your Message here" id="messageBox"/>
+            <button ng-click="sendMessage()">Send</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    margin : 0;
+    padding : 0;
+    min-width: 1000px;
+}
+
+*{
+    font-family: SansSerif, sans-serif;
+}
+
+/*clearfix*/
+.clearfix:after{
+    content : "";
+    display: block;
+    clear: both;
+}
+/*clearfix*/
+
+/*init header*/
+nav {
+    background-color: #24292E;
+    color : white;
+    padding : 1%;
+    font-weight: bold;
+}
+nav #nav-menu{
+    margin : 0;
+    padding : 3%;
+}
+nav .nav-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+nav .nav-item a{
+    text-decoration: none;
+    color : white;
+}
+nav #nav-content{
+    display: inline-block;
+}
+/*init header*/
+
+/*init container*/
+#main-container{
+    padding : 1%;
+}
+/*init container*/
+

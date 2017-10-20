@@ -1,0 +1,19 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+/*sign-up container*/
+#signup-content h1{
+    text-align: center;
+}
+#signup-content{
+    background-color:dodgerblue ;
+    padding-top : 200px;
+    width: 50%;
+    height: 400px;
+    margin : auto;
+}
+#signup-content table{
+    margin: auto;
+}
+/*sign-up container*/

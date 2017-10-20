@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Page</title>
+    <link href="../css/signup.css" rel="stylesheet"/>
+</head>
+<body ng-controller="signUpController">
+    <div id="signup-container">
+
+        <!--Username : <input type="text" placeholder="Username" ng-model="username"/><br/>-->
+        <!--Password : <input type="password" placeholder="Password" ng-model="password"/><br/>-->
+        <!--<button ng-click="signUpButton">Sign Up</button>-->
+        <div id="signup-content">
+            <h1>Sign Up</h1>
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" placeholder="Username" ng-model="username"/></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Password" ng-model="password"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button ng-click="signUpButton()" style="width: 100%;">Sign Up</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
